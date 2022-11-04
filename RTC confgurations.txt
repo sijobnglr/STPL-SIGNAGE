@@ -46,6 +46,10 @@ sudo hwclock -w
 
 sudo hwclock -w -l
 
+set local time from rtc 
+
+sudo hwclock -s -l
+
 
 
 
