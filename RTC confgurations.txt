@@ -42,7 +42,9 @@ date
 sudo hwclock -r
 sudo hwclock -w
 
-sudo hwclock - 
+//copy time from local to RTC
+
+sudo hwclock -w -l
 
 
 
