@@ -13,5 +13,5 @@ and
 
 /sbin/hwclock --rtc=$dev --systz *//
 
-sudo nano /lib/udev/hwclock-set && date && sudo hwclock -r && sudo hwclock -w && sudo hwclock -w -l && sudo hwclock -s -l && timedatectl && sudo reboot
+sudo nano /lib/udev/hwclock-set && date && sudo hwclock -r && sudo hwclock -w && sudo hwclock -w -l && sudo hwclock -s -l && timedatectl && sudo raspi-config && sudo reboot
 
