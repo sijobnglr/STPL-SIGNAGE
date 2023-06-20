@@ -1,3 +1,6 @@
+Installation script - "wget https://raw.githubusercontent.com/sijobnglr/STPL-SIGNAGE/main/DS_3231_Conf.sh"
+
+
 sudo nano /boot/config.txt
 
 to edit the pi configuration and add whichever matches your RTC chip:
