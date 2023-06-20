@@ -1,5 +1,5 @@
 Installation script part 1- "wget https://raw.githubusercontent.com/sijobnglr/STPL-SIGNAGE/main/DS_3231_Conf.sh"
-Installation script part 2 - "https://raw.githubusercontent.com/sijobnglr/STPL-SIGNAGE/main/RTC_Installation_2.sh"
+Installation script part 2 - "wget https://raw.githubusercontent.com/sijobnglr/STPL-SIGNAGE/main/RTC_Installation_2.sh"
 
 sudo nano /boot/config.txt
 
