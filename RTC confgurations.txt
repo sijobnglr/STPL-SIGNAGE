@@ -42,7 +42,7 @@ and
 
 ** copy local timemto rtc and check **
 
-date && sudo hwclock -r && sudo hwclock -w && sudo hwclock -w -l && sudo hwclock -s -l && timedatectl
+date && sudo hwclock -r && sudo hwclock -w && sudo hwclock -w -l && sudo hwclock -s -l && sudo raspi-config && timedatectl 
 
 
 
