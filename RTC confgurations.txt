@@ -23,6 +23,8 @@ enable I2C - sudo raspi-config - >interface >I2C
 
 sudo apt install i2c-tools
 
+check I2C ID = i2cdetect -y 1
+
 
 sudo apt-get -y remove fake-hwclock && sudo update-rc.d -f fake-hwclock remove && sudo systemctl disable fake-hwclock && sudo nano /lib/udev/hwclock-set
 
