@@ -1,2 +1,4 @@
 wget https://raw.githubusercontent.com/sijobnglr/STPL-SIGNAGE/refs/heads/main/rtc1.sh && sudo chmod +x rtc1.sh && ./rtc1.sh
 
+wget https://raw.githubusercontent.com/sijobnglr/STPL-SIGNAGE/refs/heads/main/rtc2.sh && sudo chmod +x rtc2.sh && ./rtc2.sh
+
